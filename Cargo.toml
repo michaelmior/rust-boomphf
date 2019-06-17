@@ -21,11 +21,6 @@ bencher = ">=0.1"
 version = "0.4"
 features = ["release_max_level_info"]
 
-[dependencies.heapsize]
-optional = true
-version = ">=0.4.2"
-default-features = false
-
 [[bench]]
 name = "build"
 harness = false
